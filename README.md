@@ -18,7 +18,7 @@ all possible issue solutions will be presented in the Go way
       thread. In this case we should take care about: 
       1. MAX num of subprocesses are running
       2. Close the subprocesses that are running too long
-         (please feet the solution to the 5.3)
+         (please feet the solution to the [...up to 10 requests per minute...](#integration-issues))
       
 3. ### Data Feeder
    1. Data feeder - currently implemented as 'Read At All at Once'  
