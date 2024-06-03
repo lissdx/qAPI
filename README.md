@@ -34,7 +34,9 @@ all possible issue solutions will be presented in the Go way
       GitHub API (it costs a lot of time). So we should improve/find 
       the HTTP client who allows run the request with `"Keep Alive"` option
 
-5. ### Integration HTTP Client
+## Integration issues
+
+1. ### Integration HTTP Client
    1. GitHub REST search API has a couple of limitation
       For example:  
       _"...up to 1,000 results for each search"_  
