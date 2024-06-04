@@ -52,3 +52,18 @@ all possible issue solutions will be presented in the Go way
       product and customer. In our case (because the app is running as dedicated process)  
       I think we may implement the **retry engine** (as part of HTTPClient) 
       
+## NOTES
+
+### IMHO Wanted Updates
+NOTE: These updates are based on personal experience.  
+They are not all necessary and should be discussed, approved, or rejected.
+
+1. Maybe it's a good idea to add containerization.
+   (add a docker file)
+2. I usually use the "Dependency Injection" approach (go.uber.org/fx)  
+   in my projects. It makes the code more structured and flexible.
+   Maybe it's a good idea to try it.
+   How it looks Example:  
+   https://github.com/lissdx/aqua-security/blob/main/cmd/monitoring/monitoring.go
+3. If it is necessary implement/add CI/CD flow
+4. Add tests
